@@ -29,6 +29,9 @@ import FixedDimensionsBasics from './src/FixedDimensionsBasics'
 // AlignItemsBasics
 // import AlignItemsBasics from './src/AlignItemsBasics'
 
+// PizzaTranslator
+// import PizzaTranslator from './src/PizzaTranslator'
+
 import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () => FixedDimensionsBasics);
