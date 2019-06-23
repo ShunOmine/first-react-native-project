@@ -23,6 +23,12 @@ import FixedDimensionsBasics from './src/FixedDimensionsBasics'
 // Height and Width FlexDimensionsBasics (next)
 // import FlexDimensionsBasics from './src/FlexDimensionsBasics'
 
+// Justify Content
+// import JustifyContentBasics from './src/JustifyContentBasics'
+
+// AlignItemsBasics
+// import AlignItemsBasics from './src/AlignItemsBasics'
+
 import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () => FixedDimensionsBasics);
