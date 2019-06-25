@@ -30,8 +30,14 @@ import {AppRegistry} from 'react-native';
 // import AlignItemsBasics from './src/AlignItemsBasics'
 
 // PizzaTranslator
-import PizzaTranslator from './src/PizzaTranslator'
+// import PizzaTranslator from './src/PizzaTranslator'
+
+// ButtonBasics
+// import ButtonBasics from './src/ButtonBasics'
+
+// Touchables
+import Touchables from './src/Touchables'
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => PizzaTranslator);
+AppRegistry.registerComponent(appName, () => Touchables);
