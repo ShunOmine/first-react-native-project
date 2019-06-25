@@ -9,10 +9,11 @@ export default class PizzaTranslator extends Component {
 
 	render() {
 		return (
-			<View style={{padding: 10}}>
+			<View style={{padding: 10, top: 50}}>
 				<TextInput
 					style={{height: 40}}
 					placeholder="Type here to translate!"
+					rows="3"
 					onChangeText={(text) => this.setState({text})}
 				/>
 				<Text style={{padding: 10, fontSize: 42}}>

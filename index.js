@@ -18,7 +18,7 @@ import {AppRegistry} from 'react-native';
 // import LotsOfStyles from './src/Styles'
 
 // Height and Width FixedDimensionsBasic
-import FixedDimensionsBasics from './src/FixedDimensionsBasics'
+// import FixedDimensionsBasics from './src/FixedDimensionsBasics'
 
 // Height and Width FlexDimensionsBasics (next)
 // import FlexDimensionsBasics from './src/FlexDimensionsBasics'
@@ -30,8 +30,8 @@ import FixedDimensionsBasics from './src/FixedDimensionsBasics'
 // import AlignItemsBasics from './src/AlignItemsBasics'
 
 // PizzaTranslator
-// import PizzaTranslator from './src/PizzaTranslator'
+import PizzaTranslator from './src/PizzaTranslator'
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => FixedDimensionsBasics);
+AppRegistry.registerComponent(appName, () => PizzaTranslator);
