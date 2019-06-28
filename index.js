@@ -36,11 +36,20 @@ import {AppRegistry} from 'react-native';
 // import ButtonBasics from './src/ButtonBasics'
 
 // Touchables
-// import Touchables from './src/Touchables'
+import Touchables from './src/Touchables'
 
 // IScrolledDownAndWhatHappenedNextShockedMe
-import IScrolledDownAndWhatHappenedNextShockedMe from './src/IScrolledDownAndWhatHappenedNextShockedMe'
+// import IScrolledDownAndWhatHappenedNextShockedMe from './src/IScrolledDownAndWhatHappenedNextShockedMe'
+
+// FlatListBasics
+// import FlatListBasics from './src/FlatListBasics'
+
+// SectionListBasics
+// import SectionListBasics from './src/SectionListBasics'
+
+// FetchExample
+// import FetchExample from './src/FetchExample'
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => IScrolledDownAndWhatHappenedNextShockedMe);
+AppRegistry.registerComponent(appName, () => Touchables);
